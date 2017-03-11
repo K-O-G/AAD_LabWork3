@@ -1,3 +1,4 @@
+package Decorator;
 
 public interface Cake {
 	Chocolate_cake getCake();

@@ -1,3 +1,4 @@
+package Decorator;
 
 public abstract class Chocolate_cake {
 	

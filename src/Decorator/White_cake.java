@@ -1,3 +1,4 @@
+package Decorator;
 
 public class White_cake extends Chocolate_cake
 {

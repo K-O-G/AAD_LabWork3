@@ -1,3 +1,4 @@
+package Decorator;
 
 public class ToppingPaper extends ToppingAdditions{
 	private Chocolate_cake cake;

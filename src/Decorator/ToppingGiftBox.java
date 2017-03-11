@@ -1,3 +1,4 @@
+package Decorator;
 
 public class ToppingGiftBox extends ToppingAdditions{
 	private Chocolate_cake cake;
@@ -8,7 +9,6 @@ public class ToppingGiftBox extends ToppingAdditions{
 		topping();
 	}
 	void topping() {
-		// TODO Auto-generated method stub
 		cake.giftbox=cake.giftbox+"Happy Birthday GiftBox";
 	}
 }

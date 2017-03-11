@@ -1,6 +1,6 @@
+package Decorator;
 
-
-public class MainClass {
+public class MainDecorator {
 	Chocolate_cake ChC;
 	ToppingAdditions TA;
 	void createCake(Cake cake)
@@ -41,7 +41,7 @@ public class MainClass {
 	}
 	public static void main(String[] args)
 	{
-		MainClass mC= new MainClass();
+		MainDecorator mC= new MainDecorator();
 		mC.createCake(new BlackCakeFactory());
 		mC.getType();
 		mC.getReceipt();

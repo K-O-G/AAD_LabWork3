@@ -1,8 +1,7 @@
-package Factory;
+package Decorator;
 
-public class Black_cake extends Chocolate_cakeProduct
+public class Black_cake extends Chocolate_cake
 {
-
 	Black_cake()
 	{
 		super.receipt = "black chocolate, sugar";

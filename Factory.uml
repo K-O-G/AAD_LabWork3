@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory</OriginalElement>
+  <nodes>
+    <node x="257.25" y="271.0">Factory.WhiteCakeCreator</node>
+    <node x="23.5" y="271.0">Factory.BlackCakeCreator</node>
+    <node x="150.25" y="0.0">Factory.ChocolateCakeProduct</node>
+    <node x="0.0" y="169.0">Factory.BlackCake</node>
+    <node x="364.0" y="169.0">Factory.WhiteCake</node>
+    <node x="140.0" y="169.0">Factory.CakeCreator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory.WhiteCakeCreator" target="Factory.CakeCreator">
+      <point x="-51.0" y="-26.0" />
+      <point x="308.25" y="246.0" />
+      <point x="293.0" y="246.0" />
+      <point x="51.0" y="26.0" />
+    </edge>
+    <edge source="Factory.WhiteCakeCreator" target="Factory.WhiteCake">
+      <point x="51.0" y="-26.0" />
+      <point x="410.25" y="246.0" />
+      <point x="425.5" y="246.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Factory.BlackCake" target="Factory.ChocolateCakeProduct">
+      <point x="0.0" y="-26.0" />
+      <point x="60.0" y="144.0" />
+      <point x="196.5" y="144.0" />
+      <point x="-46.25" y="59.5" />
+    </edge>
+    <edge source="Factory.WhiteCake" target="Factory.ChocolateCakeProduct">
+      <point x="0.0" y="-26.0" />
+      <point x="425.5" y="144.0" />
+      <point x="289.0" y="144.0" />
+      <point x="46.25" y="59.5" />
+    </edge>
+    <edge source="Factory.BlackCakeCreator" target="Factory.CakeCreator">
+      <point x="51.0" y="-26.0" />
+      <point x="176.5" y="246.0" />
+      <point x="191.0" y="246.0" />
+      <point x="-51.0" y="26.0" />
+    </edge>
+    <edge source="Factory.BlackCakeCreator" target="Factory.BlackCake">
+      <point x="-51.0" y="-26.0" />
+      <point x="74.5" y="246.0" />
+      <point x="60.0" y="246.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="243.5" y="161.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

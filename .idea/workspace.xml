@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3f3cc5d-52e7-464a-9f2d-a7a3b4c71f06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/AbstractCake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/BlackAbstractCakeFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/Black_cake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/Chocolate_cakeProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/WhiteCakeFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/White_cake.java" />
+    <list default="true" id="c3f3cc5d-52e7-464a-9f2d-a7a3b4c71f06" name="Default" comment="1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/BlackCake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/CakeFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/ChocolateCakeProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/MainAbstractFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/Roshen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractFactory/WhiteCake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Factory/MainFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BlackCakeFactory.java" afterPath="$PROJECT_DIR$/src/Decorator/BlackCakeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Black_cake.java" afterPath="$PROJECT_DIR$/src/Decorator/Black_cake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Cake.java" afterPath="$PROJECT_DIR$/src/Decorator/Cake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chocolate_cake.java" afterPath="$PROJECT_DIR$/src/Decorator/Chocolate_cake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/AbstractCake.java" afterPath="$PROJECT_DIR$/src/Factory/CakeCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/BlackAbstractCakeFactory.java" afterPath="$PROJECT_DIR$/src/Factory/BlackCakeCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Black_cake.java" afterPath="$PROJECT_DIR$/src/Factory/BlackCake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Chocolate_cakeProduct.java" afterPath="$PROJECT_DIR$/src/Factory/ChocolateCakeProduct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/WhiteCakeFactory.java" afterPath="$PROJECT_DIR$/src/Factory/WhiteCakeCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/White_cake.java" afterPath="$PROJECT_DIR$/src/Factory/WhiteCake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MainClass.java" afterPath="$PROJECT_DIR$/src/Decorator/MainDecorator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ToppingAdditions.java" afterPath="$PROJECT_DIR$/src/Decorator/ToppingAdditions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ToppingGiftBox.java" afterPath="$PROJECT_DIR$/src/Decorator/ToppingGiftBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ToppingPaper.java" afterPath="$PROJECT_DIR$/src/Decorator/ToppingPaper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/WhiteCakeFactory.java" afterPath="$PROJECT_DIR$/src/Decorator/WhiteCakeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/White_cake.java" afterPath="$PROJECT_DIR$/src/Decorator/White_cake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diagramF+AF+D.uml" afterPath="$PROJECT_DIR$/diagramF+AF+D.uml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,161 +41,120 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Cake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cake.java">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/Cake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chocolate_cake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/Chocolate_cake.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractCake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/AbstractCake.java">
+      <file leaf-file-name="BlackCakeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/BlackCakeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="White_cake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/White_cake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhiteCakeFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCakeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlackAbstractCakeFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/BlackAbstractCakeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="238">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Black_cake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/Black_cake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chocolate_cakeProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/Chocolate_cakeProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhiteCakeFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WhiteCakeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
+      <file leaf-file-name="AbstractFactory.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory.uml">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement />
+              <OriginalElement>AbstractFactory</OriginalElement>
               <nodes>
-                <node x="0.0" y="337.0">ToppingPaper</node>
-                <node x="225.0" y="337.0">ToppingGiftBox</node>
-                <node x="239.49999999999994" y="0.0">Chocolate_cake</node>
-                <node x="555.75" y="480.0">Cake</node>
-                <node x="0.0" y="798.0">Factory</node>
-                <node x="409.0" y="616.5">WhiteCakeFactory</node>
-                <node x="300.7083333333333" y="235.0">Black_cake</node>
-                <node x="0.0" y="480.0">MainClass</node>
-                <node x="777.0" y="605.0">BlackCakeFactory</node>
-                <node x="443.7083333333333" y="235.0">White_cake</node>
-                <node x="149.70833333333331" y="235.0">ToppingAdditions</node>
+                <node x="402.33333333333337" y="0.0">AbstractFactory.ChocolateCakeProduct</node>
+                <node x="440.0" y="169.0">AbstractFactory.BlackCake</node>
+                <node x="297.0" y="169.0">AbstractFactory.WhiteCake</node>
+                <node x="220.0" y="271.0">AbstractFactory.CakeFactory</node>
+                <node x="293.25" y="373.0">AbstractFactory.MainAbstractFactory</node>
+                <node x="0.0" y="169.0">AbstractFactory.Roshen</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="ToppingAdditions" target="Chocolate_cake">
+                <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.BlackCake">
+                  <point x="34.25" y="-103.5" />
+                  <point x="464.5" y="343.0" />
+                  <point x="530.0" y="343.0" />
+                  <point x="30.0" y="26.0" />
+                </edge>
+                <edge source="AbstractFactory.WhiteCake" target="AbstractFactory.ChocolateCakeProduct">
                   <point x="0.0" y="-26.0" />
-                  <point x="215.20833333333331" y="210.0" />
-                  <point x="280.33333333333326" y="210.0" />
-                  <point x="-81.66666666666669" y="92.5" />
+                  <point x="358.5" y="144.0" />
+                  <point x="433.16666666666674" y="144.0" />
+                  <point x="-61.66666666666666" y="59.5" />
                 </edge>
-                <edge source="ToppingGiftBox" target="ToppingAdditions">
-                  <point x="0.0" y="-49.0" />
-                  <point x="327.5" y="312.0" />
-                  <point x="247.95833333333331" y="312.0" />
-                  <point x="32.75" y="26.0" />
+                <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.Roshen">
+                  <point x="-92.33333333333331" y="-26.0" />
+                  <point x="266.1666666666667" y="246.0" />
+                  <point x="207.75" y="246.0" />
+                  <point x="69.25" y="26.0" />
                 </edge>
-                <edge source="Black_cake" target="Chocolate_cake">
-                  <point x="-5.6843418860808015E-14" y="-26.0" />
-                  <point x="0.0" y="92.5" />
+                <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.CakeFactory">
+                  <point x="-34.25" y="-103.5" />
+                  <point x="396.0" y="353.0" />
+                  <point x="358.5" y="353.0" />
+                  <point x="0.0" y="26.0" />
                 </edge>
-                <edge source="BlackCakeFactory" target="Cake">
-                  <point x="0.0" y="-49.0" />
-                  <point x="876.5" y="580.0" />
-                  <point x="816.75" y="580.0" />
-                  <point x="87.0" y="37.5" />
+                <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.Roshen">
+                  <point x="-102.75" y="-103.5" />
+                  <point x="327.5" y="353.0" />
+                  <point x="69.25" y="353.0" />
+                  <point x="-69.25" y="26.0" />
                 </edge>
-                <edge source="ToppingPaper" target="ToppingAdditions">
-                  <point x="0.0" y="-49.0" />
-                  <point x="102.5" y="312.0" />
-                  <point x="182.45833333333331" y="312.0" />
-                  <point x="-32.75" y="26.0" />
-                </edge>
-                <edge source="WhiteCakeFactory" target="Cake">
-                  <point x="0.0" y="-37.5" />
-                  <point x="583.0" y="580.0" />
-                  <point x="642.75" y="580.0" />
-                  <point x="-87.0" y="37.5" />
-                </edge>
-                <edge source="White_cake" target="Chocolate_cake">
+                <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.WhiteCake">
                   <point x="0.0" y="-26.0" />
-                  <point x="506.7083333333333" y="210.0" />
-                  <point x="443.66666666666663" y="210.0" />
-                  <point x="81.66666666666669" y="92.5" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="AbstractFactory.BlackCake" target="AbstractFactory.ChocolateCakeProduct">
+                  <point x="0.0" y="-26.0" />
+                  <point x="500.0" y="144.0" />
+                  <point x="494.83333333333337" y="144.0" />
+                  <point x="0.0" y="59.5" />
+                </edge>
+                <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.ChocolateCakeProduct">
+                  <point x="102.74999999999999" y="-103.5" />
+                  <point x="533.0" y="353.0" />
+                  <point x="570.5" y="353.0" />
+                  <point x="570.5" y="144.0" />
+                  <point x="556.5" y="144.0" />
+                  <point x="61.66666666666666" y="59.5" />
+                </edge>
+                <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.BlackCake">
+                  <point x="92.33333333333337" y="-26.0" />
+                  <point x="450.83333333333337" y="246.0" />
+                  <point x="470.0" y="246.0" />
+                  <point x="-30.0" y="26.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.8007761966364813" x="151.70920840064622" y="249.70920840064622" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="24.0" y="141.0" />
               <SelectedNodes>
-                <node>ToppingAdditions</node>
+                <node>AbstractFactory.MainAbstractFactory</node>
               </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
                 <Category>Constructors</Category>
-                <Category>Methods</Category>
                 <Category>Properties</Category>
-                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
@@ -186,11 +162,267 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Black_cake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Black_cake.java">
+      <file leaf-file-name="diagramF+AF+D.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diagramF+AF+D.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="760.5241228070176" y="630.0">Decorator.MainDecorator</node>
+                <node x="0.0" y="245.0">Decorator.Black_cake</node>
+                <node x="466.359649122807" y="347.0">Decorator.ToppingPaper</node>
+                <node x="557.4254385964913" y="505.0">Decorator.WhiteCakeFactory</node>
+                <node x="835.7324561403509" y="245.0">Decorator.ToppingAdditions</node>
+                <node x="711.609649122807" y="347.0">Decorator.ToppingGiftBox</node>
+                <node x="713.5" y="0.0">Decorator.Chocolate_cake</node>
+                <node x="98.35964912280701" y="358.5">Decorator.Cake</node>
+                <node x="986.7324561403509" y="245.0">Decorator.White_cake</node>
+                <node x="156.0504385964913" y="505.0">Decorator.BlackCakeFactory</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingGiftBox">
+                  <point x="130.5" y="-37.5" />
+                  <point x="460.5504385964913" y="485.0" />
+                  <point x="762.859649122807" y="485.0" />
+                  <point x="-51.25" y="49.0" />
+                </edge>
+                <edge source="Decorator.ToppingPaper" target="Decorator.ToppingAdditions">
+                  <point x="51.25" y="-49.0" />
+                  <point x="620.109649122807" y="327.0" />
+                  <point x="857.5657894736843" y="327.0" />
+                  <point x="-43.66666666666666" y="26.0" />
+                </edge>
+                <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingGiftBox">
+                  <point x="43.5" y="-37.5" />
+                  <point x="774.9254385964913" y="475.0" />
+                  <point x="865.359649122807" y="475.0" />
+                  <point x="51.25" y="49.0" />
+                </edge>
+                <edge source="Decorator.WhiteCakeFactory" target="Decorator.White_cake">
+                  <point x="130.5" y="-37.5" />
+                  <point x="861.9254385964913" y="485.0" />
+                  <point x="1049.732456140351" y="485.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="Decorator.BlackCakeFactory" target="Decorator.Black_cake">
+                  <point x="-130.5" y="-37.5" />
+                  <point x="199.5504385964913" y="485.0" />
+                  <point x="61.5" y="485.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="Decorator.White_cake" target="Decorator.Chocolate_cake">
+                  <point x="0.0" y="-26.0" />
+                  <point x="1049.732456140351" y="215.0" />
+                  <point x="897.25" y="215.0" />
+                  <point x="61.25" y="92.5" />
+                </edge>
+                <edge source="Decorator.ToppingGiftBox" target="Decorator.Chocolate_cake">
+                  <point x="-51.25" y="-49.0" />
+                  <point x="762.859649122807" y="317.0" />
+                  <point x="776.109649122807" y="317.0" />
+                  <point x="776.109649122807" y="225.0" />
+                  <point x="815.5833333333334" y="225.0" />
+                  <point x="-20.416666666666686" y="92.5" />
+                </edge>
+                <edge source="Decorator.BlackCakeFactory" target="Decorator.Cake">
+                  <point x="-43.5" y="-37.5" />
+                  <point x="286.5504385964913" y="475.0" />
+                  <point x="185.359649122807" y="475.0" />
+                  <point x="-87.0" y="37.5" />
+                </edge>
+                <edge source="Decorator.ToppingAdditions" target="Decorator.Chocolate_cake">
+                  <point x="0.0" y="-26.0" />
+                  <point x="901.2324561403509" y="225.0" />
+                  <point x="856.4166666666666" y="225.0" />
+                  <point x="20.41666666666663" y="92.5" />
+                </edge>
+                <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingPaper">
+                  <point x="43.5" y="-37.5" />
+                  <point x="373.5504385964913" y="475.0" />
+                  <point x="517.609649122807" y="475.0" />
+                  <point x="-51.25" y="49.0" />
+                </edge>
+                <edge source="Decorator.ToppingGiftBox" target="Decorator.ToppingAdditions">
+                  <point x="51.25" y="-49.0" />
+                  <point x="865.359649122807" y="327.0" />
+                  <point x="901.2324561403509" y="327.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="Decorator.MainDecorator" target="Decorator.Chocolate_cake">
+                  <point x="121.33333333333331" y="-136.5" />
+                  <point x="1063.857456140351" y="605.0" />
+                  <point x="1123.232456140351" y="605.0" />
+                  <point x="1123.232456140351" y="205.0" />
+                  <point x="938.0833333333335" y="205.0" />
+                  <point x="102.08333333333339" y="92.5" />
+                </edge>
+                <edge source="Decorator.Black_cake" target="Decorator.Chocolate_cake">
+                  <point x="-5.6843418860808015E-14" y="-26.0" />
+                  <point x="61.5" y="205.0" />
+                  <point x="733.9166666666666" y="205.0" />
+                  <point x="-102.08333333333337" y="92.5" />
+                </edge>
+                <edge source="Decorator.MainDecorator" target="Decorator.BlackCakeFactory">
+                  <point x="-121.33333333333331" y="-136.5" />
+                  <point x="821.1907894736843" y="605.0" />
+                  <point x="330.0504385964913" y="605.0" />
+                  <point x="0.0" y="37.5" />
+                </edge>
+                <edge source="Decorator.MainDecorator" target="Decorator.ToppingAdditions">
+                  <point x="0.0" y="-136.5" />
+                  <point x="942.5241228070176" y="605.0" />
+                  <point x="966.734649122807" y="605.0" />
+                  <point x="966.734649122807" y="327.0" />
+                  <point x="944.8991228070176" y="327.0" />
+                  <point x="43.666666666666686" y="26.0" />
+                </edge>
+                <edge source="Decorator.ToppingPaper" target="Decorator.Chocolate_cake">
+                  <point x="-51.25" y="-49.0" />
+                  <point x="517.609649122807" y="215.0" />
+                  <point x="774.75" y="215.0" />
+                  <point x="-61.25" y="92.5" />
+                </edge>
+                <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingPaper">
+                  <point x="-43.5" y="-37.5" />
+                  <point x="687.9254385964913" y="475.0" />
+                  <point x="620.109649122807" y="475.0" />
+                  <point x="51.25" y="49.0" />
+                </edge>
+                <edge source="Decorator.WhiteCakeFactory" target="Decorator.Cake">
+                  <point x="-130.5" y="-37.5" />
+                  <point x="600.9254385964913" y="465.0" />
+                  <point x="359.359649122807" y="465.0" />
+                  <point x="87.0" y="37.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6706392199349945" x="160.8675282714055" y="387.8675282714055" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.uml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Factory.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Factory</OriginalElement>
+              <nodes>
+                <node x="257.25" y="271.0">Factory.WhiteCakeCreator</node>
+                <node x="23.5" y="271.0">Factory.BlackCakeCreator</node>
+                <node x="150.25" y="0.0">Factory.ChocolateCakeProduct</node>
+                <node x="0.0" y="169.0">Factory.BlackCake</node>
+                <node x="364.0" y="169.0">Factory.WhiteCake</node>
+                <node x="140.0" y="169.0">Factory.CakeCreator</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Factory.WhiteCakeCreator" target="Factory.CakeCreator">
+                  <point x="-51.0" y="-26.0" />
+                  <point x="308.25" y="246.0" />
+                  <point x="293.0" y="246.0" />
+                  <point x="51.0" y="26.0" />
+                </edge>
+                <edge source="Factory.WhiteCakeCreator" target="Factory.WhiteCake">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Factory.BlackCake" target="Factory.ChocolateCakeProduct">
+                  <point x="0.0" y="-26.0" />
+                  <point x="60.0" y="144.0" />
+                  <point x="196.5" y="144.0" />
+                  <point x="-46.25" y="59.5" />
+                </edge>
+                <edge source="Factory.WhiteCake" target="Factory.ChocolateCakeProduct">
+                  <point x="0.0" y="-26.0" />
+                  <point x="425.5" y="144.0" />
+                  <point x="289.0" y="144.0" />
+                  <point x="46.25" y="59.5" />
+                </edge>
+                <edge source="Factory.BlackCakeCreator" target="Factory.CakeCreator">
+                  <point x="51.0" y="-26.0" />
+                  <point x="176.5" y="246.0" />
+                  <point x="191.0" y="246.0" />
+                  <point x="-51.0" y="26.0" />
+                </edge>
+                <edge source="Factory.BlackCakeCreator" target="Factory.BlackCake">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="243.5" y="161.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteCakeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/WhiteCakeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainAbstractFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractFactory/MainAbstractFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/MainDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToppingAdditions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Decorator/ToppingAdditions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -202,6 +434,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -221,9 +454,27 @@
         <option value="$PROJECT_DIR$/src/Factory/Black_cake.java" />
         <option value="$PROJECT_DIR$/src/Factory/White_cake.java" />
         <option value="$PROJECT_DIR$/src/Factory/BlackCakeFactory.java" />
-        <option value="$PROJECT_DIR$/src/Factory/CakeCreator.java" />
-        <option value="$PROJECT_DIR$/src/Factory/AbstractCake.java" />
         <option value="$PROJECT_DIR$/src/Factory/WhiteCakeFactory.java" />
+        <option value="$PROJECT_DIR$/src/Factory/AbstractCake.java" />
+        <option value="$PROJECT_DIR$/src/Factory/CakeCreator.java" />
+        <option value="$PROJECT_DIR$/src/Factory/ChocolateCakeProduct.java" />
+        <option value="$PROJECT_DIR$/src/Factory/WhiteCake.java" />
+        <option value="$PROJECT_DIR$/src/Factory/BlackCake.java" />
+        <option value="$PROJECT_DIR$/src/Factory/MainFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/CakeFactory.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/CakeCreator.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/Roshen.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/WhiteCakeFactory.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/MainDecorator.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/BlackCake.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/WhiteCake.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/ChocolateCakeProduct.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/ToppingGiftBox.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/ToppingPaper.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/BlackCakeFactory.java" />
+        <option value="$PROJECT_DIR$/src/Decorator/Black_cake.java" />
+        <option value="$PROJECT_DIR$/src/AbstractFactory/MainAbstractFactory.java" />
       </list>
     </option>
   </component>
@@ -280,6 +531,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,14 +550,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Factory" />
+              <option name="myItemId" value="Decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AAD_LabWork3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AAD_LabWork3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AbstractFactory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -317,6 +590,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AbstractFactory" />
       <recent name="Factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -324,7 +598,7 @@
       <recent name="C:\Users\Home\OneDrive - National Aviation University\AAD\AAD_LabWork3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.Decorator">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -562,6 +836,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -683,6 +958,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -698,9 +979,9 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="Factory" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <option name="MAIN_CLASS_NAME" value="Factory.MainFactory" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -713,8 +994,40 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+    <configuration default="false" name="Decorator" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Decorator.MainDecorator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AAD_LabWork3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AbstractFactory" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="AbstractFactory.MainAbstractFactory" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AAD_LabWork3" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Factory" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Decorator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AbstractFactory" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -728,6 +1041,8 @@
       <option name="presentableId" value="Default" />
       <updated>1489179279291</updated>
       <workItem from="1489179356914" duration="4565000" />
+      <workItem from="1489207713990" duration="4533000" />
+      <workItem from="1489212939090" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1489182413186</created>
@@ -740,39 +1055,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4565000" />
+    <option name="totallyTimeSpent" value="11104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -788,23 +1104,190 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Decorator/MainDecorator.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Decorator/MainDecorator.java</url>
+          <line>21</line>
+          <properties class="Decorator.MainDecorator" method="setPaper" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Decorator/MainDecorator.java</url>
+          <line>33</line>
+          <properties class="Decorator.MainDecorator" method="setGiftBox" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Decorator/MainDecorator.java</url>
+          <line>25</line>
+          <properties class="Decorator.MainDecorator" method="getAdditions" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BlackCakeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToppingAdditions.java">
+    <entry file="file://$PROJECT_DIR$/src/Factory/MainFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ChocolateCakeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/CakeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/MainAbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WhiteCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BlackCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/CakeCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCakeCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#153#154#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/BlackCakeCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#155#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/BlackCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/ChocolateCakeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/WhiteCakeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Black_cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -820,66 +1303,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="15.0" />
           <SelectedNodes />
           <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToppingPaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chocolate_cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Black_cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WhiteCakeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -915,6 +1339,18 @@
               <point x="247.95833333333331" y="312.0" />
               <point x="32.75" y="26.0" />
             </edge>
+            <edge source="WhiteCakeFactory" target="Cake">
+              <point x="0.0" y="-37.5" />
+              <point x="583.0" y="580.0" />
+              <point x="642.75" y="580.0" />
+              <point x="-87.0" y="37.5" />
+            </edge>
+            <edge source="White_cake" target="Chocolate_cake">
+              <point x="0.0" y="-26.0" />
+              <point x="506.7083333333333" y="210.0" />
+              <point x="443.66666666666663" y="210.0" />
+              <point x="81.66666666666669" y="92.5" />
+            </edge>
             <edge source="Black_cake" target="Chocolate_cake">
               <point x="-5.6843418860808015E-14" y="-26.0" />
               <point x="0.0" y="92.5" />
@@ -931,90 +1367,664 @@
               <point x="182.45833333333331" y="312.0" />
               <point x="-32.75" y="26.0" />
             </edge>
-            <edge source="WhiteCakeFactory" target="Cake">
-              <point x="0.0" y="-37.5" />
-              <point x="583.0" y="580.0" />
-              <point x="642.75" y="580.0" />
-              <point x="-87.0" y="37.5" />
-            </edge>
-            <edge source="White_cake" target="Chocolate_cake">
-              <point x="0.0" y="-26.0" />
-              <point x="506.7083333333333" y="210.0" />
-              <point x="443.66666666666663" y="210.0" />
-              <point x="81.66666666666669" y="92.5" />
-            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8007761966364813" x="151.70920840064622" y="249.70920840064622" />
+          <settings layout="Hierarchic Group" zoom="0.8007761966364813" x="152.0" y="250.0" />
           <SelectedNodes>
             <node>ToppingAdditions</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
             <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/Black_cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/White_cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/Chocolate_cakeProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/AbstractCake.java">
+    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCakeCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/BlackAbstractCakeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCakeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Factory/BlackCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/BlackCakeCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#155#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/CakeCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/ChocolateCakeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Factory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Factory</OriginalElement>
+          <nodes>
+            <node x="257.25" y="271.0">Factory.WhiteCakeCreator</node>
+            <node x="23.5" y="271.0">Factory.BlackCakeCreator</node>
+            <node x="150.25" y="0.0">Factory.ChocolateCakeProduct</node>
+            <node x="0.0" y="169.0">Factory.BlackCake</node>
+            <node x="364.0" y="169.0">Factory.WhiteCake</node>
+            <node x="140.0" y="169.0">Factory.CakeCreator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Factory.WhiteCakeCreator" target="Factory.CakeCreator">
+              <point x="-51.0" y="-26.0" />
+              <point x="308.25" y="246.0" />
+              <point x="293.0" y="246.0" />
+              <point x="51.0" y="26.0" />
+            </edge>
+            <edge source="Factory.WhiteCakeCreator" target="Factory.WhiteCake">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Factory.BlackCake" target="Factory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="60.0" y="144.0" />
+              <point x="196.5" y="144.0" />
+              <point x="-46.25" y="59.5" />
+            </edge>
+            <edge source="Factory.WhiteCake" target="Factory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="425.5" y="144.0" />
+              <point x="289.0" y="144.0" />
+              <point x="46.25" y="59.5" />
+            </edge>
+            <edge source="Factory.BlackCakeCreator" target="Factory.BlackCake">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Factory.BlackCakeCreator" target="Factory.CakeCreator">
+              <point x="51.0" y="-26.0" />
+              <point x="176.5" y="246.0" />
+              <point x="191.0" y="246.0" />
+              <point x="-51.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-26.0" y="92.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/WhiteCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/MainFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/CakeCreator.java" />
+    <entry file="uml://JAVA/AbstractFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>AbstractFactory</OriginalElement>
+          <nodes>
+            <node x="349.8333333333333" y="0.0">AbstractFactory.ChocolateCakeProduct</node>
+            <node x="0.0" y="169.0">AbstractFactory.CakeCreator</node>
+            <node x="440.0" y="169.0">AbstractFactory.BlackCake</node>
+            <node x="297.0" y="169.0">AbstractFactory.WhiteCake</node>
+            <node x="219.99999999999997" y="271.0">AbstractFactory.CakeFactory</node>
+            <node x="197.99999999999997" y="373.0">AbstractFactory.MainAbstractFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AbstractFactory.WhiteCake" target="AbstractFactory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="358.5" y="144.0" />
+              <point x="396.0833333333333" y="144.0" />
+              <point x="-46.25" y="59.5" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.CakeCreator">
+              <point x="-92.33333333333331" y="-26.0" />
+              <point x="266.16666666666663" y="246.0" />
+              <point x="138.5" y="246.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.CakeFactory">
+              <point x="80.25" y="-92.5" />
+              <point x="438.75" y="348.0" />
+              <point x="427.75" y="348.0" />
+              <point x="69.25" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.BlackCake" target="AbstractFactory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="500.0" y="144.0" />
+              <point x="488.5833333333333" y="144.0" />
+              <point x="46.25" y="59.5" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.WhiteCake">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.BlackCake">
+              <point x="92.33333333333331" y="-26.0" />
+              <point x="450.83333333333326" y="246.0" />
+              <point x="500.0" y="246.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="10.0" y="210.0" />
+          <SelectedNodes>
+            <node>AbstractFactory.ChocolateCakeProduct</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/CakeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Roshen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/BlackCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/WhiteCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ChocolateCakeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/ToppingPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/ToppingGiftBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/White_cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Black_cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/WhiteCakeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/ToppingAdditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/MainDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Chocolate_cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/BlackCakeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/MainAbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>AbstractFactory</OriginalElement>
+          <nodes>
+            <node x="402.33333333333337" y="0.0">AbstractFactory.ChocolateCakeProduct</node>
+            <node x="440.0" y="169.0">AbstractFactory.BlackCake</node>
+            <node x="297.0" y="169.0">AbstractFactory.WhiteCake</node>
+            <node x="220.0" y="271.0">AbstractFactory.CakeFactory</node>
+            <node x="293.25" y="373.0">AbstractFactory.MainAbstractFactory</node>
+            <node x="0.0" y="169.0">AbstractFactory.Roshen</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.BlackCake">
+              <point x="34.25" y="-103.5" />
+              <point x="464.5" y="343.0" />
+              <point x="530.0" y="343.0" />
+              <point x="30.0" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.WhiteCake" target="AbstractFactory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="358.5" y="144.0" />
+              <point x="433.16666666666674" y="144.0" />
+              <point x="-61.66666666666666" y="59.5" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.Roshen">
+              <point x="-92.33333333333331" y="-26.0" />
+              <point x="266.1666666666667" y="246.0" />
+              <point x="207.75" y="246.0" />
+              <point x="69.25" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.CakeFactory">
+              <point x="-34.25" y="-103.5" />
+              <point x="396.0" y="353.0" />
+              <point x="358.5" y="353.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.Roshen">
+              <point x="-102.75" y="-103.5" />
+              <point x="327.5" y="353.0" />
+              <point x="69.25" y="353.0" />
+              <point x="-69.25" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.WhiteCake">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="AbstractFactory.BlackCake" target="AbstractFactory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="500.0" y="144.0" />
+              <point x="494.83333333333337" y="144.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="AbstractFactory.MainAbstractFactory" target="AbstractFactory.ChocolateCakeProduct">
+              <point x="102.74999999999999" y="-103.5" />
+              <point x="533.0" y="353.0" />
+              <point x="570.5" y="353.0" />
+              <point x="570.5" y="144.0" />
+              <point x="556.5" y="144.0" />
+              <point x="61.66666666666666" y="59.5" />
+            </edge>
+            <edge source="AbstractFactory.CakeFactory" target="AbstractFactory.BlackCake">
+              <point x="92.33333333333337" y="-26.0" />
+              <point x="450.83333333333337" y="246.0" />
+              <point x="470.0" y="246.0" />
+              <point x="-30.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="24.0" y="141.0" />
+          <SelectedNodes>
+            <node>AbstractFactory.MainAbstractFactory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagramF+AF+D.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="760.5241228070176" y="630.0">Decorator.MainDecorator</node>
+            <node x="0.0" y="245.0">Decorator.Black_cake</node>
+            <node x="466.359649122807" y="347.0">Decorator.ToppingPaper</node>
+            <node x="557.4254385964913" y="505.0">Decorator.WhiteCakeFactory</node>
+            <node x="835.7324561403509" y="245.0">Decorator.ToppingAdditions</node>
+            <node x="711.609649122807" y="347.0">Decorator.ToppingGiftBox</node>
+            <node x="713.5" y="0.0">Decorator.Chocolate_cake</node>
+            <node x="98.35964912280701" y="358.5">Decorator.Cake</node>
+            <node x="986.7324561403509" y="245.0">Decorator.White_cake</node>
+            <node x="156.0504385964913" y="505.0">Decorator.BlackCakeFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingGiftBox">
+              <point x="130.5" y="-37.5" />
+              <point x="460.5504385964913" y="485.0" />
+              <point x="762.859649122807" y="485.0" />
+              <point x="-51.25" y="49.0" />
+            </edge>
+            <edge source="Decorator.ToppingPaper" target="Decorator.ToppingAdditions">
+              <point x="51.25" y="-49.0" />
+              <point x="620.109649122807" y="327.0" />
+              <point x="857.5657894736843" y="327.0" />
+              <point x="-43.66666666666666" y="26.0" />
+            </edge>
+            <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingGiftBox">
+              <point x="43.5" y="-37.5" />
+              <point x="774.9254385964913" y="475.0" />
+              <point x="865.359649122807" y="475.0" />
+              <point x="51.25" y="49.0" />
+            </edge>
+            <edge source="Decorator.WhiteCakeFactory" target="Decorator.White_cake">
+              <point x="130.5" y="-37.5" />
+              <point x="861.9254385964913" y="485.0" />
+              <point x="1049.732456140351" y="485.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="Decorator.BlackCakeFactory" target="Decorator.Black_cake">
+              <point x="-130.5" y="-37.5" />
+              <point x="199.5504385964913" y="485.0" />
+              <point x="61.5" y="485.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="Decorator.White_cake" target="Decorator.Chocolate_cake">
+              <point x="0.0" y="-26.0" />
+              <point x="1049.732456140351" y="215.0" />
+              <point x="897.25" y="215.0" />
+              <point x="61.25" y="92.5" />
+            </edge>
+            <edge source="Decorator.ToppingGiftBox" target="Decorator.Chocolate_cake">
+              <point x="-51.25" y="-49.0" />
+              <point x="762.859649122807" y="317.0" />
+              <point x="776.109649122807" y="317.0" />
+              <point x="776.109649122807" y="225.0" />
+              <point x="815.5833333333334" y="225.0" />
+              <point x="-20.416666666666686" y="92.5" />
+            </edge>
+            <edge source="Decorator.BlackCakeFactory" target="Decorator.Cake">
+              <point x="-43.5" y="-37.5" />
+              <point x="286.5504385964913" y="475.0" />
+              <point x="185.359649122807" y="475.0" />
+              <point x="-87.0" y="37.5" />
+            </edge>
+            <edge source="Decorator.ToppingAdditions" target="Decorator.Chocolate_cake">
+              <point x="0.0" y="-26.0" />
+              <point x="901.2324561403509" y="225.0" />
+              <point x="856.4166666666666" y="225.0" />
+              <point x="20.41666666666663" y="92.5" />
+            </edge>
+            <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingPaper">
+              <point x="43.5" y="-37.5" />
+              <point x="373.5504385964913" y="475.0" />
+              <point x="517.609649122807" y="475.0" />
+              <point x="-51.25" y="49.0" />
+            </edge>
+            <edge source="Decorator.ToppingGiftBox" target="Decorator.ToppingAdditions">
+              <point x="51.25" y="-49.0" />
+              <point x="865.359649122807" y="327.0" />
+              <point x="901.2324561403509" y="327.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="Decorator.MainDecorator" target="Decorator.Chocolate_cake">
+              <point x="121.33333333333331" y="-136.5" />
+              <point x="1063.857456140351" y="605.0" />
+              <point x="1123.232456140351" y="605.0" />
+              <point x="1123.232456140351" y="205.0" />
+              <point x="938.0833333333335" y="205.0" />
+              <point x="102.08333333333339" y="92.5" />
+            </edge>
+            <edge source="Decorator.Black_cake" target="Decorator.Chocolate_cake">
+              <point x="-5.6843418860808015E-14" y="-26.0" />
+              <point x="61.5" y="205.0" />
+              <point x="733.9166666666666" y="205.0" />
+              <point x="-102.08333333333337" y="92.5" />
+            </edge>
+            <edge source="Decorator.MainDecorator" target="Decorator.BlackCakeFactory">
+              <point x="-121.33333333333331" y="-136.5" />
+              <point x="821.1907894736843" y="605.0" />
+              <point x="330.0504385964913" y="605.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="Decorator.MainDecorator" target="Decorator.ToppingAdditions">
+              <point x="0.0" y="-136.5" />
+              <point x="942.5241228070176" y="605.0" />
+              <point x="966.734649122807" y="605.0" />
+              <point x="966.734649122807" y="327.0" />
+              <point x="944.8991228070176" y="327.0" />
+              <point x="43.666666666666686" y="26.0" />
+            </edge>
+            <edge source="Decorator.ToppingPaper" target="Decorator.Chocolate_cake">
+              <point x="-51.25" y="-49.0" />
+              <point x="517.609649122807" y="215.0" />
+              <point x="774.75" y="215.0" />
+              <point x="-61.25" y="92.5" />
+            </edge>
+            <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingPaper">
+              <point x="-43.5" y="-37.5" />
+              <point x="687.9254385964913" y="475.0" />
+              <point x="620.109649122807" y="475.0" />
+              <point x="51.25" y="49.0" />
+            </edge>
+            <edge source="Decorator.WhiteCakeFactory" target="Decorator.Cake">
+              <point x="-130.5" y="-37.5" />
+              <point x="600.9254385964913" y="465.0" />
+              <point x="359.359649122807" y="465.0" />
+              <point x="87.0" y="37.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6706392199349945" x="160.8675282714055" y="387.8675282714055" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Factory</OriginalElement>
+          <nodes>
+            <node x="257.25" y="271.0">Factory.WhiteCakeCreator</node>
+            <node x="23.5" y="271.0">Factory.BlackCakeCreator</node>
+            <node x="150.25" y="0.0">Factory.ChocolateCakeProduct</node>
+            <node x="0.0" y="169.0">Factory.BlackCake</node>
+            <node x="364.0" y="169.0">Factory.WhiteCake</node>
+            <node x="140.0" y="169.0">Factory.CakeCreator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Factory.WhiteCakeCreator" target="Factory.CakeCreator">
+              <point x="-51.0" y="-26.0" />
+              <point x="308.25" y="246.0" />
+              <point x="293.0" y="246.0" />
+              <point x="51.0" y="26.0" />
+            </edge>
+            <edge source="Factory.WhiteCakeCreator" target="Factory.WhiteCake">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Factory.BlackCake" target="Factory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="60.0" y="144.0" />
+              <point x="196.5" y="144.0" />
+              <point x="-46.25" y="59.5" />
+            </edge>
+            <edge source="Factory.WhiteCake" target="Factory.ChocolateCakeProduct">
+              <point x="0.0" y="-26.0" />
+              <point x="425.5" y="144.0" />
+              <point x="289.0" y="144.0" />
+              <point x="46.25" y="59.5" />
+            </edge>
+            <edge source="Factory.BlackCakeCreator" target="Factory.CakeCreator">
+              <point x="51.0" y="-26.0" />
+              <point x="176.5" y="246.0" />
+              <point x="191.0" y="246.0" />
+              <point x="-51.0" y="26.0" />
+            </edge>
+            <edge source="Factory.BlackCakeCreator" target="Factory.BlackCake">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="243.5" y="161.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -3,71 +3,142 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="337.0">ToppingPaper</node>
-    <node x="225.0" y="337.0">ToppingGiftBox</node>
-    <node x="239.49999999999994" y="0.0">Chocolate_cake</node>
-    <node x="555.75" y="480.0">Cake</node>
-    <node x="0.0" y="798.0">Factory</node>
-    <node x="409.0" y="616.5">WhiteCakeFactory</node>
-    <node x="300.7083333333333" y="235.0">Black_cake</node>
-    <node x="0.0" y="480.0">MainClass</node>
-    <node x="777.0" y="605.0">BlackCakeFactory</node>
-    <node x="443.7083333333333" y="235.0">White_cake</node>
-    <node x="149.70833333333331" y="235.0">ToppingAdditions</node>
+    <node x="760.5241228070176" y="630.0">Decorator.MainDecorator</node>
+    <node x="0.0" y="245.0">Decorator.Black_cake</node>
+    <node x="466.359649122807" y="347.0">Decorator.ToppingPaper</node>
+    <node x="557.4254385964913" y="505.0">Decorator.WhiteCakeFactory</node>
+    <node x="835.7324561403509" y="245.0">Decorator.ToppingAdditions</node>
+    <node x="711.609649122807" y="347.0">Decorator.ToppingGiftBox</node>
+    <node x="713.5" y="0.0">Decorator.Chocolate_cake</node>
+    <node x="98.35964912280701" y="358.5">Decorator.Cake</node>
+    <node x="986.7324561403509" y="245.0">Decorator.White_cake</node>
+    <node x="156.0504385964913" y="505.0">Decorator.BlackCakeFactory</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="ToppingAdditions" target="Chocolate_cake">
+    <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingGiftBox">
+      <point x="130.5" y="-37.5" />
+      <point x="460.5504385964913" y="485.0" />
+      <point x="762.859649122807" y="485.0" />
+      <point x="-51.25" y="49.0" />
+    </edge>
+    <edge source="Decorator.ToppingPaper" target="Decorator.ToppingAdditions">
+      <point x="51.25" y="-49.0" />
+      <point x="620.109649122807" y="327.0" />
+      <point x="857.5657894736843" y="327.0" />
+      <point x="-43.66666666666666" y="26.0" />
+    </edge>
+    <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingGiftBox">
+      <point x="43.5" y="-37.5" />
+      <point x="774.9254385964913" y="475.0" />
+      <point x="865.359649122807" y="475.0" />
+      <point x="51.25" y="49.0" />
+    </edge>
+    <edge source="Decorator.WhiteCakeFactory" target="Decorator.White_cake">
+      <point x="130.5" y="-37.5" />
+      <point x="861.9254385964913" y="485.0" />
+      <point x="1049.732456140351" y="485.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Decorator.BlackCakeFactory" target="Decorator.Black_cake">
+      <point x="-130.5" y="-37.5" />
+      <point x="199.5504385964913" y="485.0" />
+      <point x="61.5" y="485.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Decorator.White_cake" target="Decorator.Chocolate_cake">
       <point x="0.0" y="-26.0" />
-      <point x="215.20833333333331" y="210.0" />
-      <point x="280.33333333333326" y="210.0" />
-      <point x="-81.66666666666669" y="92.5" />
+      <point x="1049.732456140351" y="215.0" />
+      <point x="897.25" y="215.0" />
+      <point x="61.25" y="92.5" />
     </edge>
-    <edge source="ToppingGiftBox" target="ToppingAdditions">
-      <point x="0.0" y="-49.0" />
-      <point x="327.5" y="312.0" />
-      <point x="247.95833333333331" y="312.0" />
-      <point x="32.75" y="26.0" />
+    <edge source="Decorator.ToppingGiftBox" target="Decorator.Chocolate_cake">
+      <point x="-51.25" y="-49.0" />
+      <point x="762.859649122807" y="317.0" />
+      <point x="776.109649122807" y="317.0" />
+      <point x="776.109649122807" y="225.0" />
+      <point x="815.5833333333334" y="225.0" />
+      <point x="-20.416666666666686" y="92.5" />
     </edge>
-    <edge source="Black_cake" target="Chocolate_cake">
-      <point x="-5.6843418860808015E-14" y="-26.0" />
-      <point x="0.0" y="92.5" />
-    </edge>
-    <edge source="BlackCakeFactory" target="Cake">
-      <point x="0.0" y="-49.0" />
-      <point x="876.5" y="580.0" />
-      <point x="816.75" y="580.0" />
-      <point x="87.0" y="37.5" />
-    </edge>
-    <edge source="ToppingPaper" target="ToppingAdditions">
-      <point x="0.0" y="-49.0" />
-      <point x="102.5" y="312.0" />
-      <point x="182.45833333333331" y="312.0" />
-      <point x="-32.75" y="26.0" />
-    </edge>
-    <edge source="WhiteCakeFactory" target="Cake">
-      <point x="0.0" y="-37.5" />
-      <point x="583.0" y="580.0" />
-      <point x="642.75" y="580.0" />
+    <edge source="Decorator.BlackCakeFactory" target="Decorator.Cake">
+      <point x="-43.5" y="-37.5" />
+      <point x="286.5504385964913" y="475.0" />
+      <point x="185.359649122807" y="475.0" />
       <point x="-87.0" y="37.5" />
     </edge>
-    <edge source="White_cake" target="Chocolate_cake">
+    <edge source="Decorator.ToppingAdditions" target="Decorator.Chocolate_cake">
       <point x="0.0" y="-26.0" />
-      <point x="506.7083333333333" y="210.0" />
-      <point x="443.66666666666663" y="210.0" />
-      <point x="81.66666666666669" y="92.5" />
+      <point x="901.2324561403509" y="225.0" />
+      <point x="856.4166666666666" y="225.0" />
+      <point x="20.41666666666663" y="92.5" />
+    </edge>
+    <edge source="Decorator.BlackCakeFactory" target="Decorator.ToppingPaper">
+      <point x="43.5" y="-37.5" />
+      <point x="373.5504385964913" y="475.0" />
+      <point x="517.609649122807" y="475.0" />
+      <point x="-51.25" y="49.0" />
+    </edge>
+    <edge source="Decorator.ToppingGiftBox" target="Decorator.ToppingAdditions">
+      <point x="51.25" y="-49.0" />
+      <point x="865.359649122807" y="327.0" />
+      <point x="901.2324561403509" y="327.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Decorator.MainDecorator" target="Decorator.Chocolate_cake">
+      <point x="121.33333333333331" y="-136.5" />
+      <point x="1063.857456140351" y="605.0" />
+      <point x="1123.232456140351" y="605.0" />
+      <point x="1123.232456140351" y="205.0" />
+      <point x="938.0833333333335" y="205.0" />
+      <point x="102.08333333333339" y="92.5" />
+    </edge>
+    <edge source="Decorator.Black_cake" target="Decorator.Chocolate_cake">
+      <point x="-5.6843418860808015E-14" y="-26.0" />
+      <point x="61.5" y="205.0" />
+      <point x="733.9166666666666" y="205.0" />
+      <point x="-102.08333333333337" y="92.5" />
+    </edge>
+    <edge source="Decorator.MainDecorator" target="Decorator.BlackCakeFactory">
+      <point x="-121.33333333333331" y="-136.5" />
+      <point x="821.1907894736843" y="605.0" />
+      <point x="330.0504385964913" y="605.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="Decorator.MainDecorator" target="Decorator.ToppingAdditions">
+      <point x="0.0" y="-136.5" />
+      <point x="942.5241228070176" y="605.0" />
+      <point x="966.734649122807" y="605.0" />
+      <point x="966.734649122807" y="327.0" />
+      <point x="944.8991228070176" y="327.0" />
+      <point x="43.666666666666686" y="26.0" />
+    </edge>
+    <edge source="Decorator.ToppingPaper" target="Decorator.Chocolate_cake">
+      <point x="-51.25" y="-49.0" />
+      <point x="517.609649122807" y="215.0" />
+      <point x="774.75" y="215.0" />
+      <point x="-61.25" y="92.5" />
+    </edge>
+    <edge source="Decorator.WhiteCakeFactory" target="Decorator.ToppingPaper">
+      <point x="-43.5" y="-37.5" />
+      <point x="687.9254385964913" y="475.0" />
+      <point x="620.109649122807" y="475.0" />
+      <point x="51.25" y="49.0" />
+    </edge>
+    <edge source="Decorator.WhiteCakeFactory" target="Decorator.Cake">
+      <point x="-130.5" y="-37.5" />
+      <point x="600.9254385964913" y="465.0" />
+      <point x="359.359649122807" y="465.0" />
+      <point x="87.0" y="37.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.8007761966364813" x="488.8820678513732" y="396.5" />
-  <SelectedNodes>
-    <node>ToppingAdditions</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.6706392199349945" x="563.4684975767367" y="491.50000000000006" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Constructors</Category>
-    <Category>Methods</Category>
-    <Category>Properties</Category>
     <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
